@@ -45,7 +45,7 @@ minikube service vote
 minikube service result
 
 
-📁 Project Structure
+# 📁 Project Structure
 
 .
 ├── deployments/     # Deployment YAMLs (vote, result, worker, redis, db)
