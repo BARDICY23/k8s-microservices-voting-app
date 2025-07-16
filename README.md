@@ -45,10 +45,11 @@ minikube service vote
 minikube service result
 
 
-# 📁 Project Structure
+📁 Project Structure
 
 .
 ├── deployments/     # Deployment YAMLs (vote, result, worker, redis, db)
 ├── services/        # Service YAMLs (NodePort & ClusterIP)
 ├── legacy-pods/     # Old individual pod files (before switching to Deployments)
 └── README.md        # Project documentation
+
