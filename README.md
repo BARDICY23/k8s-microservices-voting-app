@@ -44,10 +44,10 @@ kubectl apply -f deployments/
 minikube service vote
 minikube service result
 
-pro
-.
-├── deployments/     Deployment YAMLs
-├── services/        Service YAMLs
-├── legacy-pods/     Old pod files
-└── README.md        Docs
+# 🚀Project Structure:
+
+- deployments/     -> Deployment YAMLs (vote, result, worker, redis, db)
+- services/        -> Service YAMLs (NodePort & ClusterIP)
+- legacy-pods/     -> Old pod files (before switching to Deployments)
+- README.md        -> Project documentation
 
