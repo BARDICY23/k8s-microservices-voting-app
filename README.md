@@ -38,10 +38,12 @@ minikube start
 
 # Apply the Kubernetes manifests
 kubectl apply -f services/
+
 kubectl apply -f deployments/
 
 # Access the services
 minikube service vote
+
 minikube service result
 
 # 🚀Project Structure:
