@@ -31,20 +31,19 @@ The application consists of 5 components:
 - Node.js, Flask
 - YAML for K8s configs
 
-## 🚀 How to Run Locally
+# 🚀 How to Run it Locally (Minikube Example)
 
-> This app runs locally on Minikube using NodePort services. It is **not exposed to the internet**.
+# Start Minikube
+minikube start
 
-1. Start Minikube:
+# Apply the Kubernetes manifests
+kubectl apply -f services/
+kubectl apply -f deployments/
 
-   minikube start
+# Access the services
+minikube service vote
+minikube service result
 
-2. Apply the Kubernetes manifests:
-   kubectl apply: -f services/ && kubectl apply -f deployments/
-
-3. Access the services:
-   minikube service vote
-   minikube service result
 
 ## 🚀project structure
 .
