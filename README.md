@@ -52,4 +52,3 @@ minikube service result
 ├── services/        # Service YAMLs (NodePort & ClusterIP)
 ├── legacy-pods/     # Old individual pod files (before switching to Deployments)
 └── README.md        # Project documentation
-
